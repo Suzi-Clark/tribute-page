@@ -1,1 +1,85 @@
-/* Copy and paste your CSS from CodePen into here */
+html {
+    font-size: var(--font-size);
+  }
+    :root {
+      --font-size: 20px;
+    }
+    @media (max-width: 390px) {
+        :root {
+          --font-size: 10px;
+        }
+     }
+  body {
+    background-color: #ccc;
+    font-family: arial narrow, sans-serif;
+    margin: 0;
+    text-align: center;
+  }
+  #main-section {
+    background-color: #345;
+    color: #ccc;
+    padding: 1rem;
+  }
+  #title {
+    font-family: "Poller One", Arial;
+    padding-top: 1.5rem;
+    font-size: 3.5rem;
+    color: #fba;
+  }
+  h2 {
+    font-size: 0.9rem;
+    padding-bottom: 0.4rem;
+    font-family: arial;
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #img-div {
+    border-color: #fba;
+    border-width: 5px;
+    border-style: solid;
+    background-color: #fba;
+    border-radius: 20px;
+    color: #345;
+    margin: auto;
+    display: block;
+    max-width: 28rem;
+    font-family: arial;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #more-info {
+    max-width: 60rem;
+    margin: 10px auto;
+    line-height: 1.5rem;
+    padding: 1rem
+  }
+  h3 {
+    color: #fba;
+    font-family: arial;
+  }
+  hr {
+    border-width: 2px;
+    border-color: #fba;
+    max-width: 28rem;
+  }
+  ul {
+    text-align: left;
+    margin: auto;
+    max-width: 28rem;
+    padding: 1rem;
+  }
+   .dark-text {
+    color: #345;
+    font-size: 0.8rem;
+   }
