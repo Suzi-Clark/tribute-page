@@ -2,7 +2,7 @@ html {
     font-size: var(--font-size);
   }
     :root {
-      --font-size: 20px;
+      --font-size: 18px;
     }
     @media (max-width: 390px) {
         :root {
@@ -14,24 +14,14 @@ html {
     font-family: arial narrow, sans-serif;
     margin: 0;
     text-align: center;
-  }
-  #main-section {
-    background-color: #345;
-    color: #ccc;
-    padding: 1rem;
+    color: #345;
   }
   #title {
     font-family: "Poller One", Arial;
     padding-top: 1.5rem;
-    font-size: 3.5rem;
-    color: #fba;
+    font-size: 4rem;
   }
-  h2 {
-    font-size: 0.9rem;
-    padding-bottom: 0.4rem;
-    font-family: arial;
-  }
-  img {
+  #image {
     height: auto;
     max-width: 100%;
     border-radius: 20px;
@@ -49,37 +39,44 @@ html {
     margin: auto;
     display: block;
     max-width: 28rem;
-    font-family: arial;
     padding-right: 1rem;
     padding-left: 1rem;
   }
-  .clearfix::after {
+ #general-paragraph {
+    max-width: 60rem;
+    margin: 10px auto;
+    line-height: 1.4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+  #records {
+    text-align: left;
+    margin: auto;
+    max-width: 28rem;
+    padding-bottom: 1rem;
+ }
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
-  #more-info {
-    max-width: 60rem;
-    margin: 10px auto;
-    line-height: 1.5rem;
-    padding: 1rem
-  }
-  h3 {
-    color: #fba;
-    font-family: arial;
-  }
-  hr {
+ .main-zone {
+    background-color: #345;
+    color: #ccc;
+    padding-bottom: 1rem;
+}
+  .subtitles {
+    font-family: monospace;
+    font-size: 1.2rem;
+ }
+  .small {
+  font-size: 0.8rem;
+}
+ .line {
     border-width: 2px;
     border-color: #fba;
     max-width: 28rem;
   }
-  ul {
-    text-align: left;
-    margin: auto;
-    max-width: 28rem;
-    padding: 1rem;
-  }
-   .dark-text {
-    color: #345;
-    font-size: 0.8rem;
-   }
+.peach {
+  color: #fba;
+}
