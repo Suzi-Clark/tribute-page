@@ -1,82 +1,82 @@
 html {
-    font-size: var(--font-size);
-  }
-    :root {
-      --font-size: 18px;
-    }
-    @media (max-width: 390px) {
-        :root {
-          --font-size: 10px;
-        }
-     }
-  body {
-    background-color: #ccc;
-    font-family: arial narrow, sans-serif;
-    margin: 0;
-    text-align: center;
-    color: #345;
-  }
-  #title {
-    font-family: "Poller One", Arial;
-    padding-top: 1.5rem;
-    font-size: 4rem;
-  }
-  #image {
-    height: auto;
-    max-width: 100%;
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-  #img-div {
-    border-color: #fba;
-    border-width: 5px;
-    border-style: solid;
-    background-color: #fba;
-    border-radius: 20px;
-    color: #345;
-    margin: auto;
-    display: block;
-    max-width: 28rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
- #general-paragraph {
-    max-width: 60rem;
-    margin: 10px auto;
-    line-height: 1.4rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+  font-size: var(--font-size);
 }
-  #records {
-    text-align: left;
-    margin: auto;
-    max-width: 28rem;
-    padding-bottom: 1rem;
- }
+  :root {
+    --font-size: 18px;
+}
+  @media (max-width: 390px) {
+      :root {
+        --font-size: 10px;
+      }
+   }
+body {
+  background-color: #ccc;
+  font-family: arial narrow, sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #345;
+}
+#title-and-below {
+  background-color: #345;
+  color: #ccc;
+  padding-bottom: 1rem;
+}
+#title {
+  font-family: "Poller One", Arial;
+  padding-top: 1.5rem;
+  font-size: 4rem;
+}
+#image {
+  height: auto;
+  max-width: 100%;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#img-div {
+  border-color: #fba;
+  border-width: 5px;
+  border-style: solid;
+  background-color: #fba;
+  border-radius: 20px;
+  color: #345;
+  margin: auto;
+  display: block;
+  max-width: 28rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+#general-paragraph {
+  max-width: 60rem;
+  margin: 10px auto;
+  line-height: 1.4rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+#records {
+  text-align: left;
+  margin: auto;
+  max-width: 28rem;
+  padding-bottom: 1rem;
+}
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
- .main-zone {
-    background-color: #345;
-    color: #ccc;
-    padding-bottom: 1rem;
+  content: "";
+  clear: both;
+  display: table;
 }
-  .subtitles {
-    font-family: monospace;
-    font-size: 1.2rem;
- }
-  .small {
-  font-size: 0.8rem;
+.subtitles {
+  font-family: monospace;
+  font-size: 1.2rem;
 }
- .line {
-    border-width: 2px;
-    border-color: #fba;
-    max-width: 28rem;
-  }
+.small {
+font-size: 0.8rem;
+}
+.line {
+  border-width: 2px;
+  border-color: #fba;
+  max-width: 28rem;
+}
 .peach {
-  color: #fba;
+color: #fba;
 }
